@@ -9,6 +9,7 @@ default_args = {
 }
 
 
+
 def get_data():
     import requests
     res = requests.get('https://randomuser.me/api/')
